@@ -1,0 +1,121 @@
+{
+ "per_node": [
+  {
+   "frac_pixels_for_50pct": 0.4365234375,
+   "centre_offset": 0.016887101477778173,
+   "norm_entropy": 0.9978676471873377,
+   "node_id": 0,
+   "depth": 0,
+   "role": "root",
+   "n_pos": 19998,
+   "width": 256,
+   "title": "root / class 'cat'"
+  },
+  {
+   "frac_pixels_for_50pct": 0.285400390625,
+   "centre_offset": 0.03601289022168261,
+   "norm_entropy": 0.9808829845534285,
+   "node_id": 0,
+   "depth": 0,
+   "role": "root",
+   "n_pos": 19998,
+   "width": 256,
+   "title": "root / class 'dog'"
+  },
+  {
+   "frac_pixels_for_50pct": 0.438232421875,
+   "centre_offset": 0.03046710609082081,
+   "norm_entropy": 0.9980911099783588,
+   "node_id": 1,
+   "depth": 1,
+   "role": "A",
+   "n_pos": 2065,
+   "width": 256,
+   "title": "d1 A-child (repairs 'cat', 2065 pos.)"
+  },
+  {
+   "frac_pixels_for_50pct": 0.430908203125,
+   "centre_offset": 0.037900775499959696,
+   "norm_entropy": 0.9976718162755552,
+   "node_id": 13,
+   "depth": 1,
+   "role": "A",
+   "n_pos": 1407,
+   "width": 256,
+   "title": "d1 A-child (repairs 'dog', 1407 pos.)"
+  },
+  {
+   "frac_pixels_for_50pct": 0.430908203125,
+   "centre_offset": 0.030286046985332382,
+   "norm_entropy": 0.9978574428833865,
+   "node_id": 3,
+   "depth": 2,
+   "role": "B",
+   "n_pos": 671,
+   "width": 256,
+   "title": "d2 B-child (repairs 'cat', 671 pos.)"
+  },
+  {
+   "frac_pixels_for_50pct": 0.438720703125,
+   "centre_offset": 0.032147009715224925,
+   "norm_entropy": 0.9978278618674381,
+   "node_id": 14,
+   "depth": 2,
+   "role": "B",
+   "n_pos": 460,
+   "width": 64,
+   "title": "d2 B-child (repairs 'cat', 460 pos.)"
+  },
+  {
+   "frac_pixels_for_50pct": 0.37744140625,
+   "centre_offset": 0.025704655767406877,
+   "norm_entropy": 0.9933935758526921,
+   "node_id": 4,
+   "depth": 3,
+   "role": "B",
+   "n_pos": 6,
+   "width": 16,
+   "title": "d3 B-child (repairs 'cat', 6 pos.)"
+  },
+  {
+   "frac_pixels_for_50pct": 0.406005859375,
+   "centre_offset": 0.018337354748093584,
+   "norm_entropy": 0.9964931618416422,
+   "node_id": 15,
+   "depth": 3,
+   "role": "B",
+   "n_pos": 4,
+   "width": 0,
+   "title": "d3 B-child (repairs 'cat', 4 pos.)"
+  }
+ ],
+ "by_depth": {
+  "root": {
+   "n": 2,
+   "frac_pixels_for_50pct": 0.3609619140625,
+   "centre_offset": 0.02644999584973039,
+   "norm_entropy": 0.9893753158703831
+  },
+  "depth1": {
+   "n": 2,
+   "frac_pixels_for_50pct": 0.4345703125,
+   "centre_offset": 0.03418394079539025,
+   "norm_entropy": 0.997881463126957
+  },
+  "depth2": {
+   "n": 2,
+   "frac_pixels_for_50pct": 0.434814453125,
+   "centre_offset": 0.031216528350278654,
+   "norm_entropy": 0.9978426523754123
+  },
+  "depth3": {
+   "n": 2,
+   "frac_pixels_for_50pct": 0.3917236328125,
+   "centre_offset": 0.02202100525775023,
+   "norm_entropy": 0.9949433688471672
+  }
+ },
+ "pages": [
+  "results/catsdogs_noise15/rf/rf_page1.png"
+ ]
+}

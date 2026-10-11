@@ -1,0 +1,95 @@
+{
+ "args": {
+  "dataset": "cifar10",
+  "data_root": "data",
+  "img_size": 64,
+  "n_train": 8000,
+  "noise": 0.15,
+  "trunk": "scratch_cnn",
+  "trunk_epochs": 3,
+  "widths": "0,8,32,128,512",
+  "max_depth": 8,
+  "max_nodes": 1500,
+  "steps": 800,
+  "seed": 0,
+  "out": "/content/drive/MyDrive/tree_nn_results/results/sweep_cifar10"
+ },
+ "tree": [
+  {
+   "width": 0,
+   "params": 229670,
+   "n_nodes": 437,
+   "depth": 7,
+   "train_acc": 1.0,
+   "test_acc": 0.4212,
+   "root_test_acc": 0.5417,
+   "seconds": 346.6805639266968
+  },
+  {
+   "width": 8,
+   "params": 189369,
+   "n_nodes": 46,
+   "depth": 5,
+   "train_acc": 1.0,
+   "test_acc": 0.4133,
+   "root_test_acc": 0.5328,
+   "seconds": 43.50128102302551
+  },
+  {
+   "width": 32,
+   "params": 296413,
+   "n_nodes": 18,
+   "depth": 2,
+   "train_acc": 1.0,
+   "test_acc": 0.4261,
+   "root_test_acc": 0.4747,
+   "seconds": 16.192646980285645
+  },
+  {
+   "width": 128,
+   "params": 724904,
+   "n_nodes": 11,
+   "depth": 1,
+   "train_acc": 1.0,
+   "test_acc": 0.4445,
+   "root_test_acc": 0.4492,
+   "seconds": 8.941978693008423
+  },
+  {
+   "width": 512,
+   "params": 267786,
+   "n_nodes": 1,
+   "depth": 0,
+   "train_acc": 1.0,
+   "test_acc": 0.47,
+   "root_test_acc": 0.47,
+   "seconds": 2.520806312561035
+  }
+ ],
+ "mlp": [
+  {
+   "width": 8,
+   "params": 4194,
+   "train_acc": 0.5783750414848328,
+   "test_acc": 0.5235999822616577
+  },
+  {
+   "width": 32,
+   "params": 16746,
+   "train_acc": 0.796125054359436,
+   "test_acc": 0.43939998745918274
+  },
+  {
+   "width": 128,
+   "params": 66954,
+   "train_acc": 1.0,
+   "test_acc": 0.4235000014305115
+  },
+  {
+   "width": 512,
+   "params": 267786,
+   "train_acc": 1.0,
+   "test_acc": 0.45729997754096985
+  }
+ ]
+}

@@ -1,0 +1,316 @@
+{
+ "per_node": [
+  {
+   "frac_pixels_for_50pct": 0.3974609375,
+   "centre_offset": 0.03500561588673501,
+   "norm_entropy": 0.9943027678692332,
+   "node_id": 0,
+   "depth": 0,
+   "role": "root",
+   "n_pos": 50000,
+   "width": 256,
+   "title": "root / class 'airplane'"
+  },
+  {
+   "frac_pixels_for_50pct": 0.3857421875,
+   "centre_offset": 0.04686841200002712,
+   "norm_entropy": 0.9929613719855637,
+   "node_id": 0,
+   "depth": 0,
+   "role": "root",
+   "n_pos": 50000,
+   "width": 256,
+   "title": "root / class 'automobile'"
+  },
+  {
+   "frac_pixels_for_50pct": 0.4013671875,
+   "centre_offset": 0.046825817683393924,
+   "norm_entropy": 0.9944035497026388,
+   "node_id": 0,
+   "depth": 0,
+   "role": "root",
+   "n_pos": 50000,
+   "width": 256,
+   "title": "root / class 'bird'"
+  },
+  {
+   "frac_pixels_for_50pct": 0.4140625,
+   "centre_offset": 0.025874718053698422,
+   "norm_entropy": 0.9955856896516094,
+   "node_id": 0,
+   "depth": 0,
+   "role": "root",
+   "n_pos": 50000,
+   "width": 256,
+   "title": "root / class 'cat'"
+  },
+  {
+   "frac_pixels_for_50pct": 0.373046875,
+   "centre_offset": 0.010390452146774884,
+   "norm_entropy": 0.9917757235905155,
+   "node_id": 0,
+   "depth": 0,
+   "role": "root",
+   "n_pos": 50000,
+   "width": 256,
+   "title": "root / class 'deer'"
+  },
+  {
+   "frac_pixels_for_50pct": 0.408203125,
+   "centre_offset": 0.0259662972340137,
+   "norm_entropy": 0.9951947386896681,
+   "node_id": 0,
+   "depth": 0,
+   "role": "root",
+   "n_pos": 50000,
+   "width": 256,
+   "title": "root / class 'dog'"
+  },
+  {
+   "frac_pixels_for_50pct": 0.408203125,
+   "centre_offset": 0.01912306204807721,
+   "norm_entropy": 0.9951974904120819,
+   "node_id": 0,
+   "depth": 0,
+   "role": "root",
+   "n_pos": 50000,
+   "width": 256,
+   "title": "root / class 'frog'"
+  },
+  {
+   "frac_pixels_for_50pct": 0.3994140625,
+   "centre_offset": 0.03494859400744473,
+   "norm_entropy": 0.994297745975828,
+   "node_id": 0,
+   "depth": 0,
+   "role": "root",
+   "n_pos": 50000,
+   "width": 256,
+   "title": "root / class 'horse'"
+  },
+  {
+   "frac_pixels_for_50pct": 0.400390625,
+   "centre_offset": 0.041125089353661305,
+   "norm_entropy": 0.9943749317895353,
+   "node_id": 0,
+   "depth": 0,
+   "role": "root",
+   "n_pos": 50000,
+   "width": 256,
+   "title": "root / class 'ship'"
+  },
+  {
+   "frac_pixels_for_50pct": 0.3955078125,
+   "centre_offset": 0.027508222286001426,
+   "norm_entropy": 0.9935531298906524,
+   "node_id": 0,
+   "depth": 0,
+   "role": "root",
+   "n_pos": 50000,
+   "width": 256,
+   "title": "root / class 'truck'"
+  },
+  {
+   "frac_pixels_for_50pct": 0.40625,
+   "centre_offset": 0.03220574241530785,
+   "norm_entropy": 0.9949139942103996,
+   "node_id": 7,
+   "depth": 1,
+   "role": "A",
+   "n_pos": 1402,
+   "width": 256,
+   "title": "d1 A-child (repairs 'cat', 1402 pos.)"
+  },
+  {
+   "frac_pixels_for_50pct": 0.3916015625,
+   "centre_offset": 0.023116974616714674,
+   "norm_entropy": 0.9935842243539285,
+   "node_id": 5,
+   "depth": 1,
+   "role": "A",
+   "n_pos": 1138,
+   "width": 256,
+   "title": "d1 A-child (repairs 'bird', 1138 pos.)"
+  },
+  {
+   "frac_pixels_for_50pct": 0.3857421875,
+   "centre_offset": 0.04852175023366794,
+   "norm_entropy": 0.9925413215590964,
+   "node_id": 9,
+   "depth": 1,
+   "role": "A",
+   "n_pos": 1133,
+   "width": 256,
+   "title": "d1 A-child (repairs 'deer', 1133 pos.)"
+  },
+  {
+   "frac_pixels_for_50pct": 0.396484375,
+   "centre_offset": 0.031342338949300406,
+   "norm_entropy": 0.9942754570242762,
+   "node_id": 11,
+   "depth": 1,
+   "role": "A",
+   "n_pos": 1133,
+   "width": 256,
+   "title": "d1 A-child (repairs 'dog', 1133 pos.)"
+  },
+  {
+   "frac_pixels_for_50pct": 0.3994140625,
+   "centre_offset": 0.01888112242474535,
+   "norm_entropy": 0.9941825863928103,
+   "node_id": 13,
+   "depth": 1,
+   "role": "A",
+   "n_pos": 907,
+   "width": 256,
+   "title": "d1 A-child (repairs 'frog', 907 pos.)"
+  },
+  {
+   "frac_pixels_for_50pct": 0.4140625,
+   "centre_offset": 0.00623374929205963,
+   "norm_entropy": 0.9954185225149708,
+   "node_id": 1,
+   "depth": 1,
+   "role": "A",
+   "n_pos": 892,
+   "width": 256,
+   "title": "d1 A-child (repairs 'airplane', 892 pos.)"
+  },
+  {
+   "frac_pixels_for_50pct": 0.412109375,
+   "centre_offset": 0.022306034879911108,
+   "norm_entropy": 0.9953193917150135,
+   "node_id": 15,
+   "depth": 1,
+   "role": "A",
+   "n_pos": 811,
+   "width": 256,
+   "title": "d1 A-child (repairs 'horse', 811 pos.)"
+  },
+  {
+   "frac_pixels_for_50pct": 0.4072265625,
+   "centre_offset": 0.021591474256601798,
+   "norm_entropy": 0.9948771211300547,
+   "node_id": 3,
+   "depth": 1,
+   "role": "A",
+   "n_pos": 770,
+   "width": 256,
+   "title": "d1 A-child (repairs 'automobile', 770 pos.)"
+  },
+  {
+   "frac_pixels_for_50pct": 0.384765625,
+   "centre_offset": 0.0186344216608224,
+   "norm_entropy": 0.9924600081617684,
+   "node_id": 8,
+   "depth": 2,
+   "role": "B",
+   "n_pos": 250,
+   "width": 16,
+   "title": "d2 B-child (repairs 'airplane', 250 pos.)"
+  },
+  {
+   "frac_pixels_for_50pct": 0.4072265625,
+   "centre_offset": 0.028204781846317136,
+   "norm_entropy": 0.9948621242428994,
+   "node_id": 10,
+   "depth": 2,
+   "role": "B",
+   "n_pos": 237,
+   "width": 16,
+   "title": "d2 B-child (repairs 'airplane', 237 pos.)"
+  },
+  {
+   "frac_pixels_for_50pct": 0.4033203125,
+   "centre_offset": 0.01599827414949372,
+   "norm_entropy": 0.994801448763675,
+   "node_id": 12,
+   "depth": 2,
+   "role": "B",
+   "n_pos": 204,
+   "width": 16,
+   "title": "d2 B-child (repairs 'airplane', 204 pos.)"
+  },
+  {
+   "frac_pixels_for_50pct": 0.390625,
+   "centre_offset": 0.04568008924779924,
+   "norm_entropy": 0.9936964946284117,
+   "node_id": 6,
+   "depth": 2,
+   "role": "B",
+   "n_pos": 36,
+   "width": 16,
+   "title": "d2 B-child (repairs 'airplane', 36 pos.)"
+  },
+  {
+   "frac_pixels_for_50pct": 0.404296875,
+   "centre_offset": 0.03777157916103282,
+   "norm_entropy": 0.9946139188811742,
+   "node_id": 14,
+   "depth": 2,
+   "role": "B",
+   "n_pos": 13,
+   "width": 16,
+   "title": "d2 B-child (repairs 'airplane', 13 pos.)"
+  },
+  {
+   "frac_pixels_for_50pct": 0.3857421875,
+   "centre_offset": 0.04808339947011879,
+   "norm_entropy": 0.9931857749484094,
+   "node_id": 4,
+   "depth": 2,
+   "role": "B",
+   "n_pos": 7,
+   "width": 16,
+   "title": "d2 B-child (repairs 'airplane', 7 pos.)"
+  },
+  {
+   "frac_pixels_for_50pct": 0.38671875,
+   "centre_offset": 0.032156784873872156,
+   "norm_entropy": 0.9934107970487983,
+   "node_id": 2,
+   "depth": 2,
+   "role": "B",
+   "n_pos": 6,
+   "width": 16,
+   "title": "d2 B-child (repairs 'airplane', 6 pos.)"
+  },
+  {
+   "frac_pixels_for_50pct": 0.376953125,
+   "centre_offset": 0.03558276186337615,
+   "norm_entropy": 0.9914918146304711,
+   "node_id": 16,
+   "depth": 2,
+   "role": "B",
+   "n_pos": 3,
+   "width": 16,
+   "title": "d2 B-child (repairs 'airplane', 3 pos.)"
+  }
+ ],
+ "by_depth": {
+  "root": {
+   "n": 10,
+   "frac_pixels_for_50pct": 0.39833984375,
+   "centre_offset": 0.031363628069982774,
+   "norm_entropy": 0.9941647139557326
+  },
+  "depth1": {
+   "n": 8,
+   "frac_pixels_for_50pct": 0.401611328125,
+   "centre_offset": 0.025524898383538594,
+   "norm_entropy": 0.9943890773625688
+  },
+  "depth2": {
+   "n": 8,
+   "frac_pixels_for_50pct": 0.3924560546875,
+   "centre_offset": 0.03276401153410405,
+   "norm_entropy": 0.993565297663201
+  }
+ },
+ "pages": [
+  "results/cifar10_noise15/rf/rf_page1.png",
+  "results/cifar10_noise15/rf/rf_page2.png",
+  "results/cifar10_noise15/rf/rf_page3.png",
+  "results/cifar10_noise15/rf/rf_page4.png"
+ ]
+}

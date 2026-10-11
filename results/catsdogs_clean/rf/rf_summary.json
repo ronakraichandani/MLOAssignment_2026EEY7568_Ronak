@@ -1,0 +1,93 @@
+{
+ "per_node": [
+  {
+   "frac_pixels_for_50pct": 0.443359375,
+   "centre_offset": 0.0025704387046422117,
+   "norm_entropy": 0.9980204824364045,
+   "node_id": 0,
+   "depth": 0,
+   "role": "root",
+   "n_pos": 19998,
+   "width": 256,
+   "title": "root / class 'cat'"
+  },
+  {
+   "frac_pixels_for_50pct": 0.437255859375,
+   "centre_offset": 0.01185714893600965,
+   "norm_entropy": 0.9977069007363313,
+   "node_id": 0,
+   "depth": 0,
+   "role": "root",
+   "n_pos": 19998,
+   "width": 256,
+   "title": "root / class 'dog'"
+  },
+  {
+   "frac_pixels_for_50pct": 0.45068359375,
+   "centre_offset": 0.013755481379054274,
+   "norm_entropy": 0.9985062760975416,
+   "node_id": 13,
+   "depth": 1,
+   "role": "A",
+   "n_pos": 1155,
+   "width": 256,
+   "title": "d1 A-child (repairs 'dog', 1155 pos.)"
+  },
+  {
+   "frac_pixels_for_50pct": 0.45166015625,
+   "centre_offset": 0.01351575656789449,
+   "norm_entropy": 0.998549615725559,
+   "node_id": 1,
+   "depth": 1,
+   "role": "A",
+   "n_pos": 1000,
+   "width": 256,
+   "title": "d1 A-child (repairs 'cat', 1000 pos.)"
+  },
+  {
+   "frac_pixels_for_50pct": 0.453857421875,
+   "centre_offset": 0.019580882138872914,
+   "norm_entropy": 0.9986766535769964,
+   "node_id": 2,
+   "depth": 2,
+   "role": "B",
+   "n_pos": 446,
+   "width": 256,
+   "title": "d2 B-child (repairs 'cat', 446 pos.)"
+  },
+  {
+   "frac_pixels_for_50pct": 0.43798828125,
+   "centre_offset": 0.022239452858861135,
+   "norm_entropy": 0.9976651662797219,
+   "node_id": 14,
+   "depth": 2,
+   "role": "B",
+   "n_pos": 324,
+   "width": 64,
+   "title": "d2 B-child (repairs 'cat', 324 pos.)"
+  }
+ ],
+ "by_depth": {
+  "root": {
+   "n": 2,
+   "frac_pixels_for_50pct": 0.4403076171875,
+   "centre_offset": 0.007213793820325931,
+   "norm_entropy": 0.9978636915863679
+  },
+  "depth1": {
+   "n": 2,
+   "frac_pixels_for_50pct": 0.451171875,
+   "centre_offset": 0.013635618973474383,
+   "norm_entropy": 0.9985279459115504
+  },
+  "depth2": {
+   "n": 2,
+   "frac_pixels_for_50pct": 0.4459228515625,
+   "centre_offset": 0.020910167498867024,
+   "norm_entropy": 0.9981709099283591
+  }
+ },
+ "pages": [
+  "results/catsdogs_clean/rf/rf_page1.png"
+ ]
+}

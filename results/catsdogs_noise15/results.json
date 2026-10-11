@@ -1,0 +1,386 @@
+{
+ "args": {
+  "dataset": "catsdogs",
+  "data_root": "data",
+  "img_size": 64,
+  "n_train": null,
+  "noise": 0.15,
+  "trunk": "scratch_cnn",
+  "trunk_epochs": 3,
+  "widths": "0,16,64,256",
+  "steps": 2000,
+  "lr": 0.005,
+  "max_depth": 8,
+  "min_pos": 1,
+  "margin": 0.05,
+  "max_nodes": 20000,
+  "use_B_multi": false,
+  "seed": 0,
+  "out": "results/catsdogs_noise15"
+ },
+ "n_train": 19998,
+ "n_test": 5000,
+ "n_classes": 2,
+ "feat_dim": 512,
+ "trunk_seconds": 38.97884273529053,
+ "grow_seconds": 232.3395972251892,
+ "root_train_acc": 0.8263826382638264,
+ "root_test_acc": 0.628,
+ "tree_train_acc": 0.9995499549954996,
+ "tree_test_acc": 0.6262,
+ "tree_train_acc_vs_clean_labels": 0.84993499349935,
+ "noisy_samples_memorised": 0.9989993328885924,
+ "n_nodes": 22,
+ "n_params": 583681,
+ "max_depth_reached": 8,
+ "depth_hist": {
+  "0": 1,
+  "1": 2,
+  "2": 3,
+  "3": 2,
+  "4": 2,
+  "5": 2,
+  "6": 3,
+  "7": 3,
+  "8": 4
+ },
+ "levels": [
+  {
+   "depth": 0,
+   "train_acc": 0.8263826382638264,
+   "test_acc": 0.628,
+   "params": 131846
+  },
+  {
+   "depth": 1,
+   "train_acc": 0.8263826382638264,
+   "test_acc": 0.628,
+   "params": 395022
+  },
+  {
+   "depth": 2,
+   "train_acc": 0.8263826382638264,
+   "test_acc": 0.628,
+   "params": 567733
+  },
+  {
+   "depth": 3,
+   "train_acc": 0.8263826382638264,
+   "test_acc": 0.628,
+   "params": 576475
+  },
+  {
+   "depth": 4,
+   "train_acc": 0.8263826382638264,
+   "test_acc": 0.628,
+   "params": 577505
+  },
+  {
+   "depth": 5,
+   "train_acc": 0.8263826382638264,
+   "test_acc": 0.628,
+   "params": 578537
+  },
+  {
+   "depth": 6,
+   "train_acc": 0.8263826382638264,
+   "test_acc": 0.628,
+   "params": 580082
+  },
+  {
+   "depth": 7,
+   "train_acc": 0.8263826382638264,
+   "test_acc": 0.628,
+   "params": 581629
+  },
+  {
+   "depth": 8,
+   "train_acc": 0.9995499549954996,
+   "test_acc": 0.6262,
+   "params": 583681
+  }
+ ],
+ "width_hist": {
+  "0": 15,
+  "16": 2,
+  "64": 1,
+  "256": 4
+ },
+ "nodes": [
+  {
+   "id": 0,
+   "depth": 0,
+   "role": "root",
+   "cls": null,
+   "n_mask": 19998,
+   "n_pos": 19998,
+   "n_err": 3472,
+   "width": 256,
+   "params": 131842,
+   "n_children": 2
+  },
+  {
+   "id": 1,
+   "depth": 1,
+   "role": "A",
+   "cls": 0,
+   "n_mask": 12042,
+   "n_pos": 2065,
+   "n_err": 673,
+   "width": 256,
+   "params": 131585,
+   "n_children": 2
+  },
+  {
+   "id": 2,
+   "depth": 2,
+   "role": "A",
+   "cls": 0,
+   "n_mask": 9979,
+   "n_pos": 2,
+   "n_err": 0,
+   "width": 16,
+   "params": 8225,
+   "n_children": 0
+  },
+  {
+   "id": 3,
+   "depth": 2,
+   "role": "B",
+   "cls": 0,
+   "n_mask": 2736,
+   "n_pos": 671,
+   "n_err": 6,
+   "width": 256,
+   "params": 131585,
+   "n_children": 1
+  },
+  {
+   "id": 4,
+   "depth": 3,
+   "role": "B",
+   "cls": 0,
+   "n_mask": 677,
+   "n_pos": 6,
+   "n_err": 5,
+   "width": 16,
+   "params": 8225,
+   "n_children": 1
+  },
+  {
+   "id": 5,
+   "depth": 4,
+   "role": "B",
+   "cls": 0,
+   "n_mask": 11,
+   "n_pos": 5,
+   "n_err": 5,
+   "width": 0,
+   "params": 513,
+   "n_children": 1
+  },
+  {
+   "id": 6,
+   "depth": 5,
+   "role": "B",
+   "cls": 0,
+   "n_mask": 10,
+   "n_pos": 5,
+   "n_err": 5,
+   "width": 0,
+   "params": 513,
+   "n_children": 2
+  },
+  {
+   "id": 7,
+   "depth": 6,
+   "role": "A",
+   "cls": 0,
+   "n_mask": 9,
+   "n_pos": 4,
+   "n_err": 4,
+   "width": 0,
+   "params": 513,
+   "n_children": 1
+  },
+  {
+   "id": 8,
+   "depth": 7,
+   "role": "B",
+   "cls": 0,
+   "n_mask": 8,
+   "n_pos": 4,
+   "n_err": 4,
+   "width": 0,
+   "params": 513,
+   "n_children": 1
+  },
+  {
+   "id": 9,
+   "depth": 8,
+   "role": "A",
+   "cls": 0,
+   "n_mask": 8,
+   "n_pos": 4,
+   "n_err": 4,
+   "width": 0,
+   "params": 513,
+   "n_children": 0
+  },
+  {
+   "id": 10,
+   "depth": 6,
+   "role": "B",
+   "cls": 0,
+   "n_mask": 6,
+   "n_pos": 1,
+   "n_err": 1,
+   "width": 0,
+   "params": 513,
+   "n_children": 1
+  },
+  {
+   "id": 11,
+   "depth": 7,
+   "role": "B",
+   "cls": 0,
+   "n_mask": 2,
+   "n_pos": 1,
+   "n_err": 1,
+   "width": 0,
+   "params": 513,
+   "n_children": 1
+  },
+  {
+   "id": 12,
+   "depth": 8,
+   "role": "B",
+   "cls": 0,
+   "n_mask": 2,
+   "n_pos": 1,
+   "n_err": 1,
+   "width": 0,
+   "params": 513,
+   "n_children": 0
+  },
+  {
+   "id": 13,
+   "depth": 1,
+   "role": "A",
+   "cls": 1,
+   "n_mask": 11428,
+   "n_pos": 1407,
+   "n_err": 460,
+   "width": 256,
+   "params": 131585,
+   "n_children": 1
+  },
+  {
+   "id": 14,
+   "depth": 2,
+   "role": "B",
+   "cls": 0,
+   "n_mask": 1867,
+   "n_pos": 460,
+   "n_err": 4,
+   "width": 64,
+   "params": 32897,
+   "n_children": 1
+  },
+  {
+   "id": 15,
+   "depth": 3,
+   "role": "B",
+   "cls": 0,
+   "n_mask": 464,
+   "n_pos": 4,
+   "n_err": 4,
+   "width": 0,
+   "params": 513,
+   "n_children": 1
+  },
+  {
+   "id": 16,
+   "depth": 4,
+   "role": "B",
+   "cls": 0,
+   "n_mask": 8,
+   "n_pos": 4,
+   "n_err": 4,
+   "width": 0,
+   "params": 513,
+   "n_children": 1
+  },
+  {
+   "id": 17,
+   "depth": 5,
+   "role": "A",
+   "cls": 0,
+   "n_mask": 8,
+   "n_pos": 4,
+   "n_err": 4,
+   "width": 0,
+   "params": 513,
+   "n_children": 1
+  },
+  {
+   "id": 18,
+   "depth": 6,
+   "role": "A",
+   "cls": 0,
+   "n_mask": 8,
+   "n_pos": 4,
+   "n_err": 4,
+   "width": 0,
+   "params": 513,
+   "n_children": 1
+  },
+  {
+   "id": 19,
+   "depth": 7,
+   "role": "A",
+   "cls": 0,
+   "n_mask": 8,
+   "n_pos": 4,
+   "n_err": 4,
+   "width": 0,
+   "params": 513,
+   "n_children": 2
+  },
+  {
+   "id": 20,
+   "depth": 8,
+   "role": "A",
+   "cls": 0,
+   "n_mask": 6,
+   "n_pos": 2,
+   "n_err": 2,
+   "width": 0,
+   "params": 513,
+   "n_children": 0
+  },
+  {
+   "id": 21,
+   "depth": 8,
+   "role": "B",
+   "cls": 0,
+   "n_mask": 6,
+   "n_pos": 2,
+   "n_err": 2,
+   "width": 0,
+   "params": 513,
+   "n_children": 0
+  }
+ ],
+ "repair_depth_hist": {
+  "0": 15205,
+  "1": 4786,
+  "2": 7
+ },
+ "frac_noisy_by_repair_depth": {
+  "0": 0.1296941795462019,
+  "1": 0.21416631842875053,
+  "2": 0.14285714285714285
+ },
+ "noise_detection_auroc": 0.5602965212102187
+}

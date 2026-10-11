@@ -1,0 +1,185 @@
+{
+ "args": {
+  "dataset": "cifar10",
+  "data_root": "data",
+  "img_size": 64,
+  "n_train": null,
+  "noise": 0.0,
+  "trunk": "scratch_cnn",
+  "trunk_epochs": 3,
+  "widths": "0,16,64,256",
+  "steps": 2000,
+  "lr": 0.005,
+  "max_depth": 8,
+  "min_pos": 1,
+  "margin": 0.05,
+  "max_nodes": 20000,
+  "use_B_multi": false,
+  "seed": 0,
+  "out": "results/cifar10_clean"
+ },
+ "n_train": 50000,
+ "n_test": 10000,
+ "n_classes": 10,
+ "feat_dim": 512,
+ "trunk_seconds": 23.941031455993652,
+ "grow_seconds": 155.19704246520996,
+ "root_train_acc": 0.98012,
+ "root_test_acc": 0.7054,
+ "tree_train_acc": 1.0,
+ "tree_test_acc": 0.7043,
+ "tree_train_acc_vs_clean_labels": 1.0,
+ "noisy_samples_memorised": null,
+ "n_nodes": 10,
+ "n_params": 553349,
+ "max_depth_reached": 1,
+ "depth_hist": {
+  "0": 1,
+  "1": 9
+ },
+ "levels": [
+  {
+   "depth": 0,
+   "train_acc": 0.98012,
+   "test_acc": 0.7054,
+   "params": 133916
+  },
+  {
+   "depth": 1,
+   "train_acc": 1.0,
+   "test_acc": 0.7043,
+   "params": 553349
+  }
+ ],
+ "width_hist": {
+  "16": 3,
+  "64": 4,
+  "256": 3
+ },
+ "nodes": [
+  {
+   "id": 0,
+   "depth": 0,
+   "role": "root",
+   "cls": null,
+   "n_mask": 50000,
+   "n_pos": 50000,
+   "n_err": 994,
+   "width": 256,
+   "params": 133898,
+   "n_children": 9
+  },
+  {
+   "id": 1,
+   "depth": 1,
+   "role": "A",
+   "cls": 0,
+   "n_mask": 45004,
+   "n_pos": 4,
+   "n_err": 0,
+   "width": 16,
+   "params": 8225,
+   "n_children": 0
+  },
+  {
+   "id": 2,
+   "depth": 1,
+   "role": "A",
+   "cls": 2,
+   "n_mask": 45037,
+   "n_pos": 37,
+   "n_err": 0,
+   "width": 64,
+   "params": 32897,
+   "n_children": 0
+  },
+  {
+   "id": 3,
+   "depth": 1,
+   "role": "A",
+   "cls": 3,
+   "n_mask": 45103,
+   "n_pos": 103,
+   "n_err": 0,
+   "width": 64,
+   "params": 32897,
+   "n_children": 0
+  },
+  {
+   "id": 4,
+   "depth": 1,
+   "role": "A",
+   "cls": 4,
+   "n_mask": 45266,
+   "n_pos": 266,
+   "n_err": 0,
+   "width": 64,
+   "params": 32897,
+   "n_children": 0
+  },
+  {
+   "id": 5,
+   "depth": 1,
+   "role": "A",
+   "cls": 5,
+   "n_mask": 45250,
+   "n_pos": 250,
+   "n_err": 0,
+   "width": 256,
+   "params": 131585,
+   "n_children": 0
+  },
+  {
+   "id": 6,
+   "depth": 1,
+   "role": "A",
+   "cls": 6,
+   "n_mask": 45289,
+   "n_pos": 289,
+   "n_err": 0,
+   "width": 256,
+   "params": 131585,
+   "n_children": 0
+  },
+  {
+   "id": 7,
+   "depth": 1,
+   "role": "A",
+   "cls": 7,
+   "n_mask": 45039,
+   "n_pos": 39,
+   "n_err": 0,
+   "width": 64,
+   "params": 32897,
+   "n_children": 0
+  },
+  {
+   "id": 8,
+   "depth": 1,
+   "role": "A",
+   "cls": 8,
+   "n_mask": 45001,
+   "n_pos": 1,
+   "n_err": 0,
+   "width": 16,
+   "params": 8225,
+   "n_children": 0
+  },
+  {
+   "id": 9,
+   "depth": 1,
+   "role": "A",
+   "cls": 9,
+   "n_mask": 45005,
+   "n_pos": 5,
+   "n_err": 0,
+   "width": 16,
+   "params": 8225,
+   "n_children": 0
+  }
+ ],
+ "repair_depth_hist": {
+  "0": 48068,
+  "1": 1932
+ }
+}

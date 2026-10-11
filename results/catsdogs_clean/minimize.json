@@ -1,0 +1,228 @@
+{
+ "full": {
+  "params": 703436,
+  "nodes": 15,
+  "train_acc": 0.9996499649964996,
+  "test_acc": 0.7198
+ },
+ "prune": [
+  {
+   "min_pos": 1,
+   "params": 703436,
+   "nodes": 15,
+   "train_acc": 0.9996499649964996,
+   "test_acc": 0.7198
+  },
+  {
+   "min_pos": 2,
+   "params": 560532,
+   "nodes": 7,
+   "train_acc": 0.9997499749974997,
+   "test_acc": 0.7198
+  },
+  {
+   "min_pos": 3,
+   "params": 559502,
+   "nodes": 5,
+   "train_acc": 0.9997499749974997,
+   "test_acc": 0.7198
+  },
+  {
+   "min_pos": 5,
+   "params": 559502,
+   "nodes": 5,
+   "train_acc": 0.9997499749974997,
+   "test_acc": 0.7198
+  },
+  {
+   "min_pos": 10,
+   "params": 559502,
+   "nodes": 5,
+   "train_acc": 0.9997499749974997,
+   "test_acc": 0.7198
+  },
+  {
+   "min_pos": 20,
+   "params": 559502,
+   "nodes": 5,
+   "train_acc": 0.9997499749974997,
+   "test_acc": 0.7198
+  },
+  {
+   "min_pos": 50,
+   "params": 559502,
+   "nodes": 5,
+   "train_acc": 0.9997499749974997,
+   "test_acc": 0.7198
+  },
+  {
+   "min_pos": 100,
+   "params": 559502,
+   "nodes": 5,
+   "train_acc": 0.9997499749974997,
+   "test_acc": 0.7198
+  },
+  {
+   "min_pos": 200,
+   "params": 559502,
+   "nodes": 5,
+   "train_acc": 0.9997499749974997,
+   "test_acc": 0.7198
+  },
+  {
+   "min_pos": 500,
+   "params": 395016,
+   "nodes": 3,
+   "train_acc": 0.9641964196419642,
+   "test_acc": 0.7104
+  }
+ ],
+ "sparsify": [
+  {
+   "sparsity": 0.0,
+   "params": 703436,
+   "nodes": 15,
+   "train_acc": 0.9996499649964996,
+   "test_acc": 0.7198
+  },
+  {
+   "sparsity": 0.5,
+   "params": 352420,
+   "nodes": 15,
+   "train_acc": 0.9761976197619762,
+   "test_acc": 0.7072
+  },
+  {
+   "sparsity": 0.8,
+   "params": 141818,
+   "nodes": 15,
+   "train_acc": 0.662966296629663,
+   "test_acc": 0.5558
+  },
+  {
+   "sparsity": 0.9,
+   "params": 71616,
+   "nodes": 15,
+   "train_acc": 0.5977097709770978,
+   "test_acc": 0.5616
+  },
+  {
+   "sparsity": 0.95,
+   "params": 36513,
+   "nodes": 15,
+   "train_acc": 0.5283028302830283,
+   "test_acc": 0.5216
+  },
+  {
+   "sparsity": 0.98,
+   "params": 15454,
+   "nodes": 15,
+   "train_acc": 0.5372037203720372,
+   "test_acc": 0.541
+  }
+ ],
+ "grid": [
+  {
+   "min_pos": 1,
+   "sparsity": 0.0,
+   "params": 703436,
+   "nodes": 15,
+   "train_acc": 0.9996499649964996,
+   "test_acc": 0.7198
+  },
+  {
+   "min_pos": 1,
+   "sparsity": 0.5,
+   "params": 352420,
+   "nodes": 15,
+   "train_acc": 0.9761976197619762,
+   "test_acc": 0.7072
+  },
+  {
+   "min_pos": 1,
+   "sparsity": 0.9,
+   "params": 71616,
+   "nodes": 15,
+   "train_acc": 0.5977097709770978,
+   "test_acc": 0.5616
+  },
+  {
+   "min_pos": 5,
+   "sparsity": 0.0,
+   "params": 559502,
+   "nodes": 5,
+   "train_acc": 0.9997499749974997,
+   "test_acc": 0.7198
+  },
+  {
+   "min_pos": 5,
+   "sparsity": 0.5,
+   "params": 280302,
+   "nodes": 5,
+   "train_acc": 0.9761976197619762,
+   "test_acc": 0.7072
+  },
+  {
+   "min_pos": 5,
+   "sparsity": 0.9,
+   "params": 56944,
+   "nodes": 5,
+   "train_acc": 0.5977097709770978,
+   "test_acc": 0.5616
+  },
+  {
+   "min_pos": 20,
+   "sparsity": 0.0,
+   "params": 559502,
+   "nodes": 5,
+   "train_acc": 0.9997499749974997,
+   "test_acc": 0.7198
+  },
+  {
+   "min_pos": 20,
+   "sparsity": 0.5,
+   "params": 280302,
+   "nodes": 5,
+   "train_acc": 0.9761976197619762,
+   "test_acc": 0.7072
+  },
+  {
+   "min_pos": 20,
+   "sparsity": 0.9,
+   "params": 56944,
+   "nodes": 5,
+   "train_acc": 0.5977097709770978,
+   "test_acc": 0.5616
+  },
+  {
+   "min_pos": 100,
+   "sparsity": 0.0,
+   "params": 559502,
+   "nodes": 5,
+   "train_acc": 0.9997499749974997,
+   "test_acc": 0.7198
+  },
+  {
+   "min_pos": 100,
+   "sparsity": 0.5,
+   "params": 280302,
+   "nodes": 5,
+   "train_acc": 0.9761976197619762,
+   "test_acc": 0.7072
+  },
+  {
+   "min_pos": 100,
+   "sparsity": 0.9,
+   "params": 56944,
+   "nodes": 5,
+   "train_acc": 0.5977097709770978,
+   "test_acc": 0.5616
+  }
+ ],
+ "width_hist": {
+  "0": 8,
+  "16": 1,
+  "64": 1,
+  "256": 5
+ }
+}

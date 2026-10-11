@@ -1,0 +1,64 @@
+{
+ "full": {
+  "params": 4268,
+  "nodes": 55,
+  "train_acc": 1.0,
+  "test_acc": 0.7333333333333333
+ },
+ "prune": [
+  {
+   "min_pos": 1,
+   "params": 4268,
+   "nodes": 55,
+   "train_acc": 1.0,
+   "test_acc": 0.7333333333333333
+  },
+  {
+   "min_pos": 2,
+   "params": 4067,
+   "nodes": 52,
+   "train_acc": 0.9976133651551312,
+   "test_acc": 0.7333333333333333
+  },
+  {
+   "min_pos": 3,
+   "params": 3799,
+   "nodes": 48,
+   "train_acc": 0.9912490055688147,
+   "test_acc": 0.7333333333333333
+  },
+  {
+   "min_pos": 5,
+   "params": 3464,
+   "nodes": 43,
+   "train_acc": 0.9817024661893397,
+   "test_acc": 0.7333333333333333
+  },
+  {
+   "min_pos": 10,
+   "params": 2928,
+   "nodes": 35,
+   "train_acc": 0.9466984884645983,
+   "test_acc": 0.7407407407407407
+  },
+  {
+   "min_pos": 20,
+   "params": 2459,
+   "nodes": 28,
+   "train_acc": 0.9204455051710422,
+   "test_acc": 0.7611111111111111
+  },
+  {
+   "min_pos": 50,
+   "params": 650,
+   "nodes": 1,
+   "train_acc": 0.8249801113762928,
+   "test_acc": 0.8833333333333333
+  }
+ ],
+ "sparsify": [],
+ "grid": [],
+ "width_hist": {
+  "0": 55
+ }
+}
